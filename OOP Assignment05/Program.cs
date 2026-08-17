@@ -362,7 +362,24 @@
 #endregion
 
 
+#region Question15
 
+/// 15) Store shipment objects in an IInsurable[] array
+/// and print their insurance values.
+///
+/// IInsurable[] insurableShipments =
+/// {
+///     standardShipment,
+///     expressShipment,
+///     internationalShipment
+/// };
+///
+/// foreach (IInsurable shipment in insurableShipments)
+/// {
+///     Console.WriteLine("Insurance Cost: " + shipment.CalculateInsurance() + " EGP");
+/// }
+
+#endregion
 
 
 
