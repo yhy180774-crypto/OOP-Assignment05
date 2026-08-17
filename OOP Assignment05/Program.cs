@@ -249,7 +249,26 @@
 #endregion
 
 
+#region Question10
 
+/// 10) Create DeliveryReport.
+///
+/// public static class DeliveryReport
+/// {
+///     public static void PrintShipment(ITrackable shipment)
+///     {
+///         Console.WriteLine(shipment.GetTrackingStatus());
+///     }
+///
+///     public static void PrintInsurance(IInsurable shipment)
+///     {
+///         Console.WriteLine("Insurance Cost: "
+///                           + shipment.CalculateInsurance()
+///                           + " EGP");
+///     }
+/// }
+
+#endregion
 
 
 
