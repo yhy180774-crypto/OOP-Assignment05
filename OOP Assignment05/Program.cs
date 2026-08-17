@@ -184,37 +184,69 @@
 #endregion
 
 
-    #region Question08
+#region Question08
 
-    /// 08) Update ExpressShipment to implement ITrackable and IInsurable.
-    ///
-    /// public class ExpressShipment : Shipment, ITrackable, IInsurable
-    /// {
-    ///     public decimal ExtraFee { get; set; }
-    ///
-    ///     public override decimal EstimatedCost
-    ///     {
-    ///         get
-    ///         {
-    ///             return DeliveryFee + (Weight * 5) + ExtraFee;
-    ///         }
-    ///     }
-    ///
-    ///     public string GetTrackingStatus()
-    ///     {
-    ///         return $"Shipment {TrackingCode} is Out for Delivery.";
-    ///     }
-    ///
-    ///     public decimal CalculateInsurance()
-    ///     {
-    ///         return EstimatedCost * 0.08m;
-    ///     }
-    /// }
+/// 08) Update ExpressShipment to implement ITrackable and IInsurable.
+///
+/// public class ExpressShipment : Shipment, ITrackable, IInsurable
+/// {
+///     public decimal ExtraFee { get; set; }
+///
+///     public override decimal EstimatedCost
+///     {
+///         get
+///         {
+///             return DeliveryFee + (Weight * 5) + ExtraFee;
+///         }
+///     }
+///
+///     public string GetTrackingStatus()
+///     {
+///         return $"Shipment {TrackingCode} is Out for Delivery.";
+///     }
+///
+///     public decimal CalculateInsurance()
+///     {
+///         return EstimatedCost * 0.08m;
+///     }
+/// }
 
-    #endregion
+#endregion
 
 
+#region Question09
 
+/// 09) Update InternationalShipment to implement ITrackable and IInsurable.
+///
+/// public class InternationalShipment : Shipment, ITrackable, IInsurable
+/// {
+///     public string DestinationCountry { get; set; }
+///     public decimal CustomsFee { get; set; }
+///
+///     public override decimal EstimatedCost
+///     {
+///         get
+///         {
+///             return DeliveryFee
+///                  + (Weight * 5)
+///                  + CustomsFee;
+///         }
+///     }
+///
+///     public string GetTrackingStatus()
+///     {
+///         return $"Shipment {TrackingCode} has been Delivered.";
+///     }
+///
+///     public decimal CalculateInsurance()
+///     {
+///         return EstimatedCost * 0.12m;
+///     }
+/// }
+///
+
+
+#endregion
 
 
 
