@@ -333,7 +333,13 @@
 #endregion
 
 
+#region Question13
 
+/// 13) Print the tracking status of every shipment.
+///
+/// center.PrintTrackingStatuses();
+
+#endregion
 
 
 
