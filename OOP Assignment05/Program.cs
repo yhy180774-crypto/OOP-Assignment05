@@ -271,7 +271,28 @@
 #endregion
 
 
+#region Question11
 
+/// 11) Add PrintTrackingStatuses() to DeliveryCenter.
+///
+/// public void PrintTrackingStatuses()
+/// {
+///     foreach (Shipment shipment in shipments)
+///     {
+///         if (shipment != null)
+///         {
+///             ITrackable trackable = shipment as ITrackable;
+///
+///             if (trackable != null)
+///             {
+///                 Console.WriteLine(
+///                     trackable.GetTrackingStatus());
+///             }
+///         }
+///     }
+/// }
+
+#endregion
 
 
 
