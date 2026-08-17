@@ -116,7 +116,16 @@
 #endregion
 
 
+#region Question05
 
+/// 05) Create ITrackable interface.
+///
+/// public interface ITrackable
+/// {
+///     string GetTrackingStatus();
+/// }
+
+#endregion
 
 
 
