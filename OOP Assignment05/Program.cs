@@ -128,7 +128,17 @@
 #endregion
 
 
+#region Question06
 
+/// 06) Create IInsurable interface.
+///
+/// public interface IInsurable
+/// {
+///     decimal CalculateInsurance();
+/// }
+///
+
+#endregion
 
 
 
