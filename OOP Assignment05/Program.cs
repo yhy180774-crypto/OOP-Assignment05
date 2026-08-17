@@ -146,45 +146,72 @@
 /// 07) Update StandardShipment to inherit from abstract Shipment
 /// and implement ITrackable and IInsurable.
 
-    //public class standardshipment : shipment, itrackable, iinsurable
-    //     {
-    //            public standardshipment(string trackingcode, string description, decimal weight, decimal deliveryfee, deliveryaddress destination) : base(trackingcode, description, weight, deliveryfee, destination)
+//public class standardshipment : shipment, itrackable, iinsurable
+//     {
+//            public standardshipment(string trackingcode, string description, decimal weight, decimal deliveryfee, deliveryaddress destination) : base(trackingcode, description, weight, deliveryfee, destination)
 
-    //                      {
-    //         }
+//                      {
+//         }
 
-    //     public override decimal estimatedcost
-    //     {
-    //         get
-    //        {
-    //             return deliveryfee + (weight* 5);
-    //        }
-    //    }
+//     public override decimal estimatedcost
+//     {
+//         get
+//        {
+//             return deliveryfee + (weight* 5);
+//        }
+//    }
 
-    //     public override void printshipment()
-    //     {
-    // console.writeline("standard shipment");
-    // console.writeline();
-    // console.writeline("tracking code : " + trackingcode);
-    // console.writeline("description   : " + description);
-    // console.writeline("estimated cost: " + estimatedcost + " egp");
-    //     }
+//     public override void printshipment()
+//     {
+// console.writeline("standard shipment");
+// console.writeline();
+// console.writeline("tracking code : " + trackingcode);
+// console.writeline("description   : " + description);
+// console.writeline("estimated cost: " + estimatedcost + " egp");
+//     }
 
-    //         public string gettrackingstatus()
-    //         {
-    //             return $"shipment {trackingcode} is ready.";
-    //         }
-    
-    //         public decimal calculateinsurance()
-    //         {
-    //             return estimatedcost * 0.05m;
-    //         }
-    //     }
+//         public string gettrackingstatus()
+//         {
+//             return $"shipment {trackingcode} is ready.";
+//         }
+
+//         public decimal calculateinsurance()
+//         {
+//             return estimatedcost * 0.05m;
+//         }
+//     }
 
 #endregion
 
 
+    #region Question08
 
+    /// 08) Update ExpressShipment to implement ITrackable and IInsurable.
+    ///
+    /// public class ExpressShipment : Shipment, ITrackable, IInsurable
+    /// {
+    ///     public decimal ExtraFee { get; set; }
+    ///
+    ///     public override decimal EstimatedCost
+    ///     {
+    ///         get
+    ///         {
+    ///             return DeliveryFee + (Weight * 5) + ExtraFee;
+    ///         }
+    ///     }
+    ///
+    ///     public string GetTrackingStatus()
+    ///     {
+    ///         return $"Shipment {TrackingCode} is Out for Delivery.";
+    ///     }
+    ///
+    ///     public decimal CalculateInsurance()
+    ///     {
+    ///         return EstimatedCost * 0.08m;
+    ///     }
+    /// }
+
+    #endregion
 
 
 
