@@ -295,7 +295,42 @@
 #endregion
 
 
+#region Question12
 
+/// 12) Create all shipment objects and add them to the DeliveryCenter.
+///
+/// StandardShipment standardShipment =
+///     new StandardShipment(
+///         "SH001",
+///         "Laptop",
+///         3,
+///         80,
+///         address1);
+///
+/// ExpressShipment expressShipment =
+///     new ExpressShipment(
+///         "SH002",
+///         "Mobile Phone",
+///         2,
+///         60,
+///         address2,
+///         30);
+///
+/// InternationalShipment internationalShipment =
+///     new InternationalShipment(
+///         "SH003",
+///         "Television",
+///         8,
+///         120,
+///         address3,
+///         "Germany",
+///         100);
+///
+/// center.AddShipment(standardShipment);
+/// center.AddShipment(expressShipment);
+/// center.AddShipment(internationalShipment);
+
+#endregion
 
 
 
