@@ -101,8 +101,19 @@
 #endregion
 
 
+#region Question04
 
+/// 04) Add Abstract EstimatedCost and PrintShipment() members.
+///
+/// public abstract decimal EstimatedCost
+/// {
+///     get;
+/// }
+///
+/// public abstract void PrintShipment();
+///
 
+#endregion
 
 
 
