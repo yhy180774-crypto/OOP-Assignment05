@@ -141,7 +141,47 @@
 #endregion
 
 
+#region Question07
 
+/// 07) Update StandardShipment to inherit from abstract Shipment
+/// and implement ITrackable and IInsurable.
+
+    //public class standardshipment : shipment, itrackable, iinsurable
+    //     {
+    //            public standardshipment(string trackingcode, string description, decimal weight, decimal deliveryfee, deliveryaddress destination) : base(trackingcode, description, weight, deliveryfee, destination)
+
+    //                      {
+    //         }
+
+    //     public override decimal estimatedcost
+    //     {
+    //         get
+    //        {
+    //             return deliveryfee + (weight* 5);
+    //        }
+    //    }
+
+    //     public override void printshipment()
+    //     {
+    // console.writeline("standard shipment");
+    // console.writeline();
+    // console.writeline("tracking code : " + trackingcode);
+    // console.writeline("description   : " + description);
+    // console.writeline("estimated cost: " + estimatedcost + " egp");
+    //     }
+
+    //         public string gettrackingstatus()
+    //         {
+    //             return $"shipment {trackingcode} is ready.";
+    //         }
+    
+    //         public decimal calculateinsurance()
+    //         {
+    //             return estimatedcost * 0.05m;
+    //         }
+    //     }
+
+#endregion
 
 
 
