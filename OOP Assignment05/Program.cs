@@ -342,7 +342,24 @@
 #endregion
 
 
+#region Question14
 
+/// 14) Store shipment objects in an ITrackable[] array
+/// and print their tracking statuses.
+///
+/// ITrackable[] trackableShipments =
+/// {
+///     standardShipment,
+///     expressShipment,
+///     internationalShipment
+/// };
+///
+/// foreach (ITrackable shipment in trackableShipments)
+/// {
+///     Console.WriteLine(shipment.GetTrackingStatus());
+/// }.
+
+#endregion
 
 
 
